@@ -17,7 +17,7 @@ $form_validation = new Form_Validation();
 
 
 // Array containing custom messages 
-(Optional parameter, if not passed, default error messages will be used)
+// (Optional parameter, if not passed, default error messages will be used)
 
 $messages = array(
     'required' => '{field} is cumpolsary',
