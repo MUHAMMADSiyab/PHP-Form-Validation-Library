@@ -8,6 +8,7 @@ Performs Server-Side validation of HTML Forms
 
 ### Validating form 
 ``` 
+<?php
 // Instantiate `Form_Validation` Class
 $form_validation = new Form_Validation();
 
