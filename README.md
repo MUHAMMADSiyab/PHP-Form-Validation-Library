@@ -3,8 +3,10 @@ Performs Server-Side validation of HTML Forms
 
 ## Downloading and implementation 
 - Clone the zip file and include in your project directory
-- Include Form_Validation library
-    `require_once 'Form_Validation.php';`
+- Include Form_Validation library 
+    ```php
+    require_once 'Form_Validation.php'; 
+    ```
 
 ### Validating form 
 ```php 
