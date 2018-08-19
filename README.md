@@ -7,10 +7,12 @@ Performs Server-Side validation of HTML Forms
     `require_once 'Form_Validation.php';`
 
 ### Validating form 
-``` 
+```php 
 <?php
+
 // Instantiate `Form_Validation` Class
 $form_validation = new Form_Validation();
+
 
 // Array containing custom messages 
 (Optional parameter, if not passed, default error messages will be used)
@@ -22,11 +24,14 @@ $messages = array(
     'regex' => '{field} must be in specific pattern'
 );
 
+
 // Validation rules
 $form_validation->validate(array('field_name', 'field_label', 'required|>10|<3', $messages));
 
+
 // Check whether a record exists in database
 $form_validation->exists('field_name|field_label', 'localhost|user|password|db_name', 'table_name|column_name', 'custom_error');
+
 
 // Check
 if ($form_validation->is_form_ok() === false) {
@@ -42,6 +47,7 @@ if ($form_validation->is_form_ok() === false) {
         // Do something here
     
 }
+
 ```
 
 ## Available methods
