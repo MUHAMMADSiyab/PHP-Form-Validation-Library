@@ -101,7 +101,7 @@ Shows validation errors
 #### 5. is_form_ok
 Checks whether validation is done with errors or not
 
-## Avaible validation rules
+## Available validation rules
 | Rule               | Description                        | Syntax                 |
 | :----------------: | :--------------------------------: | :--------------------: |
 | *required*           | Checks if a field is empty         | `required`               |
