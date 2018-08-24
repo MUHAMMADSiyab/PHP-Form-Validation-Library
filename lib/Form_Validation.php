@@ -7,7 +7,8 @@
     * @author MUHAMMAD Siyab
         
 */
-
+    namespace FormValidation;
+       
     class Form_Validation {
         
 
@@ -451,19 +452,11 @@
 
             if (count($this->formatted_errors) !== 0) {
 
-                for ($i = 0; $i < count($this->formatted_errors); $i++) {
-
-                    echo $this->formatted_errors[$i] . '<br>';
-
-                }
+                    return $this->formatted_errors;
 
             } else {
 
-                for ($i = 0; $i < count($this->error_messages); $i++) {
-
-                    echo $this->error_messages[$i] . '<br>';
-
-                }
+                    return $this->error_messages;
 
             }
 
