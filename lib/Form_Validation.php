@@ -358,7 +358,7 @@
             $con = mysqli_connect($host, $user, $password, $db_name);
 
             // Escaped Input
-            $escaped_input = mysqli_real_escape_string($con, $con, $this->input);
+            $escaped_input = mysqli_real_escape_string($con, $this->input);
 
             // Query
             $query = mysqli_query($con, 'SELECT * FROM `' .$table_name. '` WHERE `' .$column_name. '` = "' .$escaped_input. '"');
