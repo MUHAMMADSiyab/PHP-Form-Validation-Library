@@ -1,5 +1,5 @@
 {
-    "require": {
-        "muhammadsiyab/form_validation": "^1.0"
-    }
+    "name": "muhammadsiyab/form_validation",
+    "description": "Performs Server-Side validation of HTML Forms",
+    "require": {}
 }
