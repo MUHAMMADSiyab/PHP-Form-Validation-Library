@@ -2,9 +2,11 @@
 
 /** 
 
-    * Form Validation Library **
+    * @package Form Validation Library 
     * @version 1.0 
     * @author MUHAMMAD Siyab
+    * @link https://github.com/MUHAMMADSiyab/PHP-Form-Validation-Library
+    * @license MIT
         
 */
     namespace FormValidation;
@@ -355,8 +357,11 @@
             // Connect to database 
             $con = mysqli_connect($host, $user, $password, $db_name);
 
+            // Escaped Input
+            $escaped_input = mysqli_real_escape_string($con, $con, $this->input);
+
             // Query
-            $query = mysqli_query($con, 'SELECT * FROM `' .$table_name. '` WHERE `' .$column_name. '` = "' .$this->input. '"');
+            $query = mysqli_query($con, 'SELECT * FROM `' .$table_name. '` WHERE `' .$column_name. '` = "' .$escaped_input. '"');
 
             // If records exists
             if (mysqli_num_rows($query) > 0) {

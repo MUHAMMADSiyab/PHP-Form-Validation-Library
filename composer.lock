@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5cd843d1f3a136646b2affc7daaf026f",
+    "packages": [
+        {
+            "name": "muhammadsiyab/form_validation",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MUHAMMADSiyab/PHP-Form-Validation-Library.git",
+                "reference": "55966ba72ebee11c836a12583d1b28a09b4850ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MUHAMMADSiyab/PHP-Form-Validation-Library/zipball/55966ba72ebee11c836a12583d1b28a09b4850ef",
+                "reference": "55966ba72ebee11c836a12583d1b28a09b4850ef",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FormValidation\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MUHAMMAD Siyab",
+                    "email": "khaksar445@gmail.com"
+                }
+            ],
+            "description": "PHP Form Validation Library",
+            "time": "2018-08-24T05:35:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
