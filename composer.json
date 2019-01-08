@@ -1,5 +1,5 @@
 {
     "name": "muhammadsiyab/form_validation",
-    "description": "Performs Server-Side validation of HTML Forms",
+    "description": "PHP library for validatiing HTML forms",
     "require": {}
 }
