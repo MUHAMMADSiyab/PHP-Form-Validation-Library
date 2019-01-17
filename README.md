@@ -62,7 +62,7 @@ if ($form_validation->is_form_ok() === false) {
 
 ## Available methods
 #### 1. validate
-validates the form using specified rules 
+Validates the form using specified rules 
 ###### Parameters:
 * ``array`` **$config** 
 Array that contains validation configuration
