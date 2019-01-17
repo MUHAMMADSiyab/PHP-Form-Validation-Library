@@ -1,5 +1,19 @@
 {
     "name": "muhammadsiyab/form_validation",
-    "description": "PHP library for validating HTML forms",
-    "require": {}
+    "description": "PHP Form Validation Library",
+    "type": "Library",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MUHAMMAD Siyab",
+            "email": "khaksar445@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"FormValidation\\": "lib/"}
+    },
+    "require": {
+        "php": "^4.*"
+    }
 }
