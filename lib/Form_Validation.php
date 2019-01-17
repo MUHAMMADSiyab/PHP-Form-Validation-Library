@@ -357,7 +357,7 @@
             // Connect to database 
             $con = mysqli_connect($host, $user, $password, $db_name);
 
-            // Escaped Input
+            // Escape Input
             $escaped_input = mysqli_real_escape_string($con, $this->input);
 
             // Query
