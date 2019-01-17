@@ -13,7 +13,5 @@
     "autoload": {
         "psr-4": {"FormValidation\\": "lib/"}
     },
-    "require": {
-        "php": "^4"
-    }
+    "require": {}
 }
