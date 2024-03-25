@@ -104,7 +104,7 @@ Sets custom markup for validation errors
    `` '</span>' ``
 
 #### 4. show_validation_errors 
-###### @return type ``Array`` (User for loop to iterate through errors)
+###### @return type ``Array`` (Use for loop to iterate through errors)
 Shows validation errors 
 
 #### 5. is_form_ok
