@@ -2,7 +2,8 @@
 Performs Server-Side validation of HTML Forms
 
 ## Downloading and implementation 
-- run command `composer require muhammadsiyab/form_validation` 
+- run command <br>
+```composer require muhammadsiyab/form_validation```
 - Include Form_Validation library 
     ```php
     require_once './vendor/autoload.php'; 
